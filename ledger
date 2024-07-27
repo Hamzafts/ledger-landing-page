@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Your Crypto with Ledger</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <a href="#"><img src="logo.png" alt="Ledger Logo" class="logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="#benefits">Benefits</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Secure Your Cryptocurrency with Ledger</h1>
+            <p>The most trusted hardware wallet for secure crypto storage.</p>
+            <a href="YOUR_AFFILIATE_LINK" class="cta-btn">Buy Now</a>
+            <img src="ledger-product.png" alt="Ledger Product">
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <h2>Why Choose Ledger?</h2>
+            <div class="benefit">
+                <img src="secure-icon.png" alt="Secure">
+                <h3>Secure</h3>
+                <p>Protect your crypto assets with top-notch security features.</p>
+            </div>
+            <div class="benefit">
+                <img src="easy-icon.png" alt="Easy to Use">
+                <h3>Easy to Use</h3>
+                <p>Simple and intuitive interface for seamless crypto management.</p>
+            </div>
+            <div class="benefit">
+                <img src="support-icon.png" alt="Support">
+                <h3>24/7 Support</h3>
+                <p>Access our expert support team whenever you need assistance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Features</h2>
+            <ul>
+                <li>State-of-the-art security with a certified secure chip</li>
+                <li>Supports over 1,800 cryptocurrencies</li>
+                <li>Backup and restore features for peace of mind</li>
+                <li>Manage your crypto on-the-go with Ledger Live app</li>
+            </ul>
+            <img src="features-image.png" alt="Ledger Features">
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <blockquote>
+                <p>"Ledger has been a game-changer for me. I can rest easy knowing my crypto is safe."</p>
+                <cite>John Doe</cite>
+            </blockquote>
+            <blockquote>
+                <p>"The Ledger Live app makes managing my assets so simple and straightforward."</p>
+                <cite>Jane Smith</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <ol>
+                <li>Purchase your Ledger hardware wallet</li>
+                <li>Set up your wallet and secure your recovery phrase</li>
+                <li>Download the Ledger Live app</li>
+                <li>Transfer your crypto assets to your Ledger wallet</li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>Is Ledger really secure?</h3>
+                <p>Yes, Ledger uses a certified secure chip and proprietary OS to protect your assets.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Which cryptocurrencies are supported?</h3>
+                <p>Ledger supports over 1,800 cryptocurrencies including Bitcoin, Ethereum, and more.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What happens if I lose my Ledger?</h3>
+                <p>You can recover your assets using your recovery phrase on a new Ledger device.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2024 Ledger. All rights reserved.</p>
+            <div class="social-media">
+                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        /* Basic styles for the landing page */
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        header {
+            background: #f8f9fa;
+            padding: 20px 0;
+        }
+
+        .logo {
+            width: 150px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 0;
+            background: #f1f1f1;
+        }
+
+        .cta-btn {
+            background: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .benefits, .features, .testimonials, .how-it-works, .faq {
+            padding: 50px 0;
+        }
+
+        .benefits .benefit, .faq .faq-item {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .social-media a {
+            margin-right: 10px;
+        }
+
+        footer {
+            background: #f8f9fa;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</body>
+</html>
